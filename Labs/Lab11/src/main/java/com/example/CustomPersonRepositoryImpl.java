@@ -6,7 +6,6 @@ import java.util.*;
 
 
 public class CustomPersonRepositoryImpl implements CustomPersonRepository {
-
     @PersistenceContext
     private EntityManager entityManager;
 

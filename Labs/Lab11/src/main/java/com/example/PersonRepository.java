@@ -7,6 +7,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+// Repository<User, Long>
+// ListCrudRepository<Person, Long>
+// PagingAndSortingRepository<Person, Long>
 public interface PersonRepository extends JpaRepository<Person, Long>, CustomPersonRepository {
     
     /*  Query methods based on method name and  projection at the same time  */

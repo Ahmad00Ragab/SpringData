@@ -1,7 +1,6 @@
 com\example\NamesOnly.class
 com\example\DemoApplication.class
 com\example\PersonRepository.class
-com\example\CustomPersonRepository.class
-com\example\CustomPersonRepositoryImpl.class
+com\example\PersonController.class
 com\example\Person.class
 com\example\PersonService.class

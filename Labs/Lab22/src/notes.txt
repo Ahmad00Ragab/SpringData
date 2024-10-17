@@ -1,0 +1,5 @@
+- Understanding the Bootstrap Modes:
+Lazy     : Repositories are initialized only when they are first accessed.
+Eager    : Repositories are initialized during application startup.
+Deferred : Repositories are initialized after the application context has been fully initialized.
+
